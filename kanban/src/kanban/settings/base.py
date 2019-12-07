@@ -1,11 +1,3 @@
-# -----------------IMPORTANT--------------------
-
-#Before running the project, make a file named local.py in this directory and do one of the followin
-#             from .dev import *
-#             from .production import *
-
-
-
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
