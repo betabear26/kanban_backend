@@ -1,5 +1,5 @@
 # kanban_backend
-Backend code for the Kanban app. This file serves as a guide on how to run this app and also explains the data structures and architecure used.
+Backend code for the Kanban app. This file serves as a guide on how to run this app and also explains the data structures and architecure used. All documents related to this project can be found [here](https://drive.google.com/open?id=12nxcDiWrcV-Iwycq-G1u1_V6xPOed1-S)
 
 ## Database Structure
 Database name: Kanban
