@@ -1,8 +1,8 @@
 from flask import Flask
-from config import Config
+from config import FlaskConfig, AppConfig
 
 app = Flask(__name__)
-app.config.from_object(Config)
+app.config.from_object(FlaskConfig)
 
 @app.route("/")
 def hello():
@@ -22,4 +22,4 @@ def sendJson():
 
 if __name__ == "__main__":
     app.debug=True
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=AppConfig.PORT)
