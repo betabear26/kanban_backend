@@ -14,7 +14,6 @@ def show(id):
 
 @app.route("/getJson")
 def sendJson():
-    app.logger.error("getJson called")
     return {
         "userName" : "Admin",
         "password" : "Password",
