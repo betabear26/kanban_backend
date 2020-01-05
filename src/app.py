@@ -4,6 +4,10 @@ from config import FlaskConfig, AppConfig
 app = Flask(__name__)
 app.config.from_object(FlaskConfig)
 
+@app.route("/.well-known/acme-challenge/YS5aHHHMTF6JnDuUA82BuFesNytm0nr4C973wbF2w8k")
+def ssl():
+    return AppConfig.SSL
+
 @app.route("/")
 def hello():
     return "Hello mega world"
