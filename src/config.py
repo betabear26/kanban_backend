@@ -9,4 +9,3 @@ class FlaskConfig(object):
 
 class AppConfig(object):
     PORT = os.environ.get('PORT', 5000)
-    SSL = os.environ.get('SSL_KEY', '')
