@@ -10,5 +10,7 @@ Database Tables:
 ## File Structure
 All the boards are organised in file structures. Every board stays in its folder and the the data inside is stored in JSON files with filename. Json file points to particular file names which can be read to display the data.
 
+Re thinking it, it seems that file structures are too expensive, I gotta find a way to store everything in a postgres database. Which is a very inefficient use of space. If anyone has any idea, feel free to tell me
+
 
 
